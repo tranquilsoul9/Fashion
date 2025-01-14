@@ -1,0 +1,20 @@
+.homepage-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #e279be;  /* Lighter shade of background color */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px #df4fad;  /* Optional: adds a subtle shadow for a modern look */
+  }
+  
+  .navbar-item {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #f9f1f1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar-item:hover {
+    color: #f1c40f;  /* Yellow color on hover */
+  }
+  

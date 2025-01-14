@@ -1,0 +1,72 @@
+/* Create Account Page Styling */
+.create-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .create-account-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    max-width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #333;
+  }
+  
+  button {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #333; /* Matches the navbar's background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f1c40f; /* Yellow color on hover */
+  }
+  
+  button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+  }
+  

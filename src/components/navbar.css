@@ -1,0 +1,31 @@
+/* Styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for the navbar */
+    color: white;
+  }
+  
+  .navbar-logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    color: #f1c40f; /* Yellow on hover */
+  }
+  

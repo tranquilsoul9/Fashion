@@ -1,0 +1,79 @@
+/* Cart Styling */
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+    min-height: 100vh; /* Make sure it takes the full viewport height */
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    max-width: 900px; /* Limit the width */
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .cart-item-info h3 {
+    font-size: 20px;
+  }
+  
+  .cart-item-info p {
+    font-size: 16px;
+  }
+  
+  .cart-summary {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .cart-summary h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #333; /* Matches the navbar's background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #f1c40f; /* Yellow color on hover */
+  }
+  

@@ -1,0 +1,54 @@
+/* Global body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Universal container for all content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Default styling for headings */
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style links globally */
+  a {
+    color: #080909;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons with default styling */
+  button {
+    background-color: #080909;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #f1c40f;
+  }
+  
+  /* Add responsiveness (example: for mobile) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
